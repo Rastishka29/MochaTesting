@@ -7,7 +7,7 @@ var should = chai.should();
 var page;
 chai.use(chaiAsPromised);
 
-describe ('Library app scenarios', function(){
+describe ('On the Home Page', function(){
  this.timeout(50000);
 
   beforeEach(( async function(){
