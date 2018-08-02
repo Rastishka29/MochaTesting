@@ -18,10 +18,6 @@ After(async function () {
     await page.quit();
 })
 
-Given('home page is opened from fresh start', async function () {
-    await page.visit('https://library-app.firebaseapp.com/');
-});
-
 When('user opens libraries page', async function () {
     await page.visit('https://library-app.firebaseapp.com/libraries');
 });

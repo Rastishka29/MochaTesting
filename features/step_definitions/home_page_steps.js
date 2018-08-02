@@ -33,10 +33,6 @@ Then('request button becomes enabled', async function () {
     await btn.state.should.eventually.be.true;
 });
 
-Given('home page is reopened', async function () {
-    await page.visit('https://library-app.firebaseapp.com/');
-});
-
 When('user types a valid email and press request button', async function () {
     alert = page.alertSuccess();
 });

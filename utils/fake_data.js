@@ -5,7 +5,8 @@ var fake = function(){
         email: faker.internet.email(),
         libraryName: "Conquer" + faker.address.city() + " " + "Library",
         address: faker.address.streetAddress(),
-        phone: faker.phone.phoneNumber()
+        phone: faker.phone.phoneNumber(),
+        message: faker.lorem.sentence()
     }
 }
 

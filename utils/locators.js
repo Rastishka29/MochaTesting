@@ -20,6 +20,13 @@ module.exports = {
 
         inputFilter:'input[placeholder="Filter by library name"]',
         abcBtn:'body > div > div > div:nth-child(5) > div:nth-child(2) > a',
-        abcBtnList: 'body > div > div > div:nth-child(5) > div.col-md-10 > div > div > div'
+        abcBtnList: 'body > div > div > div:nth-child(5) > div.col-md-10 > div > div > div',
+    
+    // Contact page:
 
+    infoBox: '.well-sm',
+    emailAddress:'input[placeholder="Your email address"]',
+    feedbackMessage:'[placeholder="Your message. (At least 5 characters.)"]',
+    sendBtn:'div > div > div > div > button',
+    successMessage:'.alert-success'
 }
